@@ -10,24 +10,26 @@ Here is a small project to showcase how electronic appliances like T.V, fans, li
 - [ ] Smart phone
 
 ## Home Automation Using NodeMCU and Google Assistant.
+![Image of Home_Automation]https://github.com/BhupendraNegi/Home_Automation/blob/master/Pictures/Home%20Automation.png
 
--[ ] Download and Installing the Blynk App on the Smartphone.
+- [ ] Download and Installing the Blynk App on the Smartphone.
 * Login and create a new project by clicking ‘New Project’.
 * Select the hardware device as NodeMCU and select the connection type as WIFI.
 * Blynk will send an Auth token to your email id.
 * Create a button to control the first relay. Select the pin as digital pin D3.
 
--[ ] Download Arduino IDE and Configure the Blynk Libraries.
+- [ ] Download Arduino IDE and Configure the Blynk Libraries.
 
--[ ] Upload the code to NodeMCU.
+- [ ] Upload the code to NodeMCU.
 * Go to Tools > Board and select ‘NodeMCU 1.0 (ESP-12E Module)’ as the board.
 * Go to Files > Examples > Blynk > Boards_WIFI > ESP8266_Standalone. 
 * Change the Auth token, ssid and password.
 
--[ ] Hardware Assembly.
-![Image of Hardware] 
+- [ ] Hardware Assembly.
+![Image of Hardware] https://github.com/BhupendraNegi/Home_Automation/blob/master/Pictures/Espnode%20module.jpg
+![Image of ESP8266] https://github.com/BhupendraNegi/Home_Automation/blob/master/Pictures/HardwareAssembly.png
 
--[ ] Connect Google Assistant (using IFTTT) to make the NodeMCU work with voice commands.
+- [ ] Connect Google Assistant (using IFTTT) to make the NodeMCU work with voice commands.
 We cannot connect the Google Assistant to the NodeMCU directly, and that is the only reason we are using the Blynk app. Blynk app can directly connect to the NodeMCU and send data to it. So, if we can send the voice commands interpreted by google assistant directly to the Blynk app, the Blynk app can then forward those commands to the NodeMCU. But the problem is Google Assistant cannot directly understand foreign commands like “turn on the fan” or “turn on relay one” etc. on its own. So, to solve this we use another intermediate app/website called ‘IFTTT’.
 
 * Go to IFTTT’s website and sign up to it using your Google Account.
