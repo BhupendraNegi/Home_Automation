@@ -10,7 +10,10 @@ Here is a small project to showcase how electronic appliances like T.V, fans, li
 - [ ] Smart phone
 
 ## Home Automation Using NodeMCU and Google Assistant.
+
+
 ![Image of Home_Automation]https://github.com/BhupendraNegi/Home_Automation/blob/master/Pictures/Home%20Automation.png
+
 
 - [ ] Download and Installing the Blynk App on the Smartphone.
 * Login and create a new project by clicking ‘New Project’.
@@ -26,7 +29,12 @@ Here is a small project to showcase how electronic appliances like T.V, fans, li
 * Change the Auth token, ssid and password.
 
 - [ ] Hardware Assembly.
+
+
 ![Image of Hardware] https://github.com/BhupendraNegi/Home_Automation/blob/master/Pictures/Espnode%20module.jpg
+
+
+
 ![Image of ESP8266] https://github.com/BhupendraNegi/Home_Automation/blob/master/Pictures/HardwareAssembly.png
 
 - [ ] Connect Google Assistant (using IFTTT) to make the NodeMCU work with voice commands.
